@@ -26,7 +26,7 @@ FinPortfolio es una aplicación que permite a los usuarios gestionar su portafol
 (Incluye capturas de pantalla de la interfaz de usuario para dar una vista previa visual del proyecto)
 
 ## Diagrama de la Base de Datos
-<img src="https://raw.githubusercontent.com/juzt3/FinPortfolio/main/FinShark.drawio.svg" alt="UML"/>
+<img src="https://raw.githubusercontent.com/juzt3/FinPortfolio/main/FinPortfolio.drawio.svg" alt="UML"/>
 
 ## Instalación
 1. **Clonar el Repositorio:** `git clone https://github.com/tu-usuario/FinPortfolio.git`
