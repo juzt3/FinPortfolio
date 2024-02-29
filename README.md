@@ -25,9 +25,6 @@ FinPortfolio es una aplicación que permite a los usuarios gestionar su portafol
 ## Capturas de Pantalla
 (Incluye capturas de pantalla de la interfaz de usuario para dar una vista previa visual del proyecto)
 
-## Diagrama de la Base de Datos
-<img src="https://raw.githubusercontent.com/juzt3/FinPortfolio/main/FinPortfolio.drawio.svg" alt="UML"/>
-
 ## Instalación
 1. **Clonar el Repositorio:** `git clone https://github.com/tu-usuario/FinPortfolio.git`
 2. **Frontend:** Navega al directorio del frontend: `cd FinPortfolio/frontend` -> `npm install` -> `npm start`
@@ -53,11 +50,11 @@ FinPortfolio es una aplicación que permite a los usuarios gestionar su portafol
 (Describe la estructura del proyecto, cómo están organizados los archivos y carpetas)
 
 ### Diagrama de la Base de Datos
-(Explica brevemente la estructura de la base de datos utilizando el diagrama UML)
+<img src="https://raw.githubusercontent.com/juzt3/FinPortfolio/main/FinPortfolio.drawio.svg" alt="UML"/>
 
 ## To-Do List
-- [ ] 🚀 Desarrollar Frontend.
 - [ ] 🛠 Desarrollar la API.
+- [ ] 🚀 Desarrollar Frontend.
 
 ## Contacto
 LinkedIn: [Felipe Gatica Cea](https://www.linkedin.com/in/felipe-gatica-cea-124b01270/)
