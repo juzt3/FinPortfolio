@@ -22,6 +22,10 @@ FinPortfolio es una aplicación que permite a los usuarios gestionar su portafol
 - Base de Datos: SQL Server
 - Autenticación: JWT (JSON Web Tokens)
 
+## To-Do List
+- [X] 🛠 Desarrollar la API.
+- [ ] 🚀 Desarrollar Frontend.
+
 ## Capturas de Pantalla
 (Incluye capturas de pantalla de la interfaz de usuario para dar una vista previa visual del proyecto)
 
@@ -51,10 +55,6 @@ FinPortfolio es una aplicación que permite a los usuarios gestionar su portafol
 
 ### Diagrama de la Base de Datos
 <img src="https://raw.githubusercontent.com/juzt3/FinPortfolio/main/FinPortfolio.drawio.svg" alt="UML"/>
-
-## To-Do List
-- [ ] 🛠 Desarrollar la API.
-- [ ] 🚀 Desarrollar Frontend.
 
 ## Contacto
 LinkedIn: [Felipe Gatica Cea](https://www.linkedin.com/in/felipe-gatica-cea-124b01270/)
