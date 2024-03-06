@@ -26,16 +26,20 @@ FinPortfolio es una aplicación que permite a los usuarios gestionar su portafol
 - [X] 🛠 Desarrollar la API.
 - [ ] 🚀 Desarrollar Frontend.
 
-## Capturas de Pantalla
-(Incluye capturas de pantalla de la interfaz de usuario para dar una vista previa visual del proyecto)
-
 ## Instalación
 1. **Clonar el Repositorio:** `git clone https://github.com/tu-usuario/FinPortfolio.git`
-2. **Frontend:** Navega al directorio del frontend: `cd FinPortfolio/frontend` -> `npm install` -> `npm start`
-3. **Backend:** Navega al directorio del backend: `cd ../api` -> Configura el archivo de configuración -> `dotnet run`
+2. **Backend:** Navega al directorio del backend: `cd FinPortfolio/api` -> Configura el archivo de configuración -> `dotnet run`
+3. **Frontend:** (WIP) Navega al directorio del frontend: `cd ../frontend` -> `npm install` -> `npm start`
 
 ## Configuración
-(Proporciona información sobre cualquier configuración necesaria, como credenciales de API, configuración de bases de datos, etc.)
+### FMP Service
+Para agregar los datos de los stocks automáticamente, necesitas obtener una API KEY en [FMP](https://site.financialmodelingprep.com/) y agregarla al archivo `./api/appsettings.json` en la entrada "FMPKey".
+
+### Puerto API
+Puedes cambiar el puerto en el que se ejecuta la API cambiando la entrada "APIPort" del archivo anteriormente mencionado.
+
+## Documentacion
+Puedes revisar la documentación en `http://localhost:5000/swagger/index.html` una vez hayas lanzado la API
 
 ## Uso
 1. **Gestión de Usuarios:**
@@ -50,11 +54,8 @@ FinPortfolio es una aplicación que permite a los usuarios gestionar su portafol
     - Deja comentarios en los stocks para compartir tus opiniones e información adicional.
 
 ## Desarrollo
-### Estructura del Proyecto
-(Describe la estructura del proyecto, cómo están organizados los archivos y carpetas)
-
 ### Diagrama de la Base de Datos
-<img src="https://raw.githubusercontent.com/juzt3/FinPortfolio/main/FinPortfolio.drawio.svg" alt="UML"/>
+![UML](https://raw.githubusercontent.com/juzt3/FinPortfolio/main/FinPortfolio.drawio.svg)
 
 ## Contacto
 LinkedIn: [Felipe Gatica Cea](https://www.linkedin.com/in/felipe-gatica-cea-124b01270/)
