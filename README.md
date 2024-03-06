@@ -17,7 +17,7 @@ FinPortfolio es una aplicación que permite a los usuarios gestionar su portafol
 - 💬 **Comentarios en Stocks:** Comparte opiniones e información adicional sobre stocks.
 
 ## Tecnologías Utilizadas
-- Frontend: React TypeScript
+- ~~Frontend: React TypeScript~~
 - Backend: .NET API con Entity Framework Core
 - Base de Datos: SQL Server
 - Autenticación: JWT (JSON Web Tokens)
@@ -29,9 +29,13 @@ FinPortfolio es una aplicación que permite a los usuarios gestionar su portafol
 ## Instalación
 1. **Clonar el Repositorio:** `git clone https://github.com/tu-usuario/FinPortfolio.git`
 2. **Backend:** Navega al directorio del backend: `cd FinPortfolio/api` -> Configura el archivo de configuración -> `dotnet run`
-3. **Frontend:** (WIP) Navega al directorio del frontend: `cd ../frontend` -> `npm install` -> `npm start`
+3. ~~**Frontend:** (WIP) Navega al directorio del frontend: `cd ../frontend` -> `npm install` -> `npm start`~~
 
 ## Configuración
+### Conexión con la Base de Datos
+Debes cambiar la entrada "DefaultConnection" en el archivo `./api/appsettings.json` cambiando el nombre del equipo y el nombre de la base de datos:
+`Data Source=NOMBRE-DEL-EQUIPO\\SQLEXPRESS;Initial Catalog=NOMBRE-DE-LA-BASE-DE-Datos;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"`
+
 ### FMP Service
 Para agregar los datos de los stocks automáticamente, necesitas obtener una API KEY en [FMP](https://site.financialmodelingprep.com/) y agregarla al archivo `./api/appsettings.json` en la entrada "FMPKey".
 
